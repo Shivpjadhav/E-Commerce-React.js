@@ -1,0 +1,156 @@
+.shop-category {
+  padding: 40px 20px;
+  /* max-width: 1300px; */
+  /* width: 100%; */
+  height: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: #fafafa; */
+}
+.category-banner-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  height: 380px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+  color: #fff;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.banner-overlay h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.banner-overlay p {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.category-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  display: block;
+}
+
+.category-banner-container:hover .category-banner {
+  transform: scale(1.02);
+}
+
+
+
+.shopcategory-indexSort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 18px;
+  color: #444;
+}
+
+.shopcategory-indexSort span {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #222;
+}
+
+/* Move "Sort by" to the right */
+.shopcategory-sort {
+  margin-left: auto;
+  font-size: 16px;
+  color: #555;
+  text-transform: capitalize;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.shopcategory-sort:hover {
+  border-color: #000;
+  color: #000;
+}
+
+/* Product grid */
+.shopcategory-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+/* Explore More Button */
+.shopcategory-loadmode {
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 30px;
+  margin: 0 auto 60px;
+  border: 2px solid #444;
+  color: #444;
+  display: inline-block;
+  border-radius: 30px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.shopcategory-loadmode:hover {
+  background-color: #ec8209;
+  color: #fff;
+  border-color: #eca407;
+}
+
+@media (max-width: 768px) {
+  .category-banner-container {
+    height: 250px;
+  }
+
+  .banner-overlay {
+    padding-left: 30px;
+  }
+
+  .banner-overlay h1 {
+    font-size: 28px;
+  }
+
+  .banner-overlay p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-banner-container {
+    height: 180px;
+  }
+
+  .banner-overlay h1 {
+    font-size: 22px;
+  }
+
+  .banner-overlay p {
+    font-size: 12px;
+  }
+}
+
+

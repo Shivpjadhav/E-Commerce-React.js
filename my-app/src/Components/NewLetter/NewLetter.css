@@ -1,0 +1,62 @@
+.newsletter {
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  padding: 60px 30px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  margin: 60px auto;
+  max-width: 650px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newsletter h1 {
+  font-size: 2.2rem;
+  color: #222;
+  margin-bottom: 16px;
+}
+
+.newsletter p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.newsletter-input-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.newsletter input[type="email"] {
+  padding: 14px 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 280px;
+  max-width: 100%;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.newsletter input[type="email"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.newsletter button {
+  padding: 14px 22px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.newsletter button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}

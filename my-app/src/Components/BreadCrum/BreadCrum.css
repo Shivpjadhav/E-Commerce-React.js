@@ -1,0 +1,29 @@
+.breadcrum {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 15px;
+    color: #444;
+    font-weight: 500;
+    padding: 20px 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 30px auto;
+    max-width: 1280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+  }
+  
+  .breadcrum span {
+    color: #888;
+  }
+  
+  .breadcrum img {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    object-fit: contain;
+    opacity: 0.6;
+  }
+  

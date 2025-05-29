@@ -1,0 +1,34 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    position: relative;
+  }
+  
+  .popular-swiper {
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 60px; /* add bottom padding */
+    position: relative;
+  }
+  
+  .swiper-pagination {
+    bottom: 10px;
+    text-align: center;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #999;
+    /* opacity: 1; */
+    margin: 0 5px !important;
+position: relative;
+top: 15px;
+/* z-index: 0.5; */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #171717;
+  }
+  

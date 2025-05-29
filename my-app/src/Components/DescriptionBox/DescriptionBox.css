@@ -1,0 +1,54 @@
+.descriptionbox {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 1px solid #ddd;
+  }
+  
+  .description-navigator {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .descriptionbox-nav-box {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    color: #222;
+  }
+  
+  .descriptionbox-nav-box::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .descriptionbox-nav-box.fade {
+    color: #888;
+  }
+  
+  .descriptionbox-nav-box.fade::after {
+    background-color: transparent;
+  }
+  
+  .descriptionbox-description {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.7;
+  }
+  
+  .descriptionbox-description p {
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,31 @@
+.relatedproduct {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .relatedproduct h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .relatedproduct hr {
+    width: 80px;
+    height: 3px;
+    background-color: #e53935;
+    border: none;
+    margin: 0 auto 40px auto;
+  }
+  
+  .relatedproducts-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
